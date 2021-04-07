@@ -36,6 +36,6 @@ public class JDBCConfiguration {
 
 	// Récupération du Dao
 	public VilleDao getVilleDao() {
-		return new VilleDaoImpl(this);
+		return new VilleDaoImpl(this); 
 	}
 }
